@@ -7,11 +7,11 @@
 ## FULL day backup full.sh shell
 
     cd /var/opt/mssql/data/
-    mv madinadb "/mnt/Full/file_name_$(date '+%HH-%MM-%d\%m\%Y')"
+    mv database_folder "/mnt/Full/file_name_$(date '+%HH-%MM-%d\%m\%Y')"
 
 ## Half of day backup half.sh shell
     cd /var/opt/mssql/data/
-    mv madinadb "/mnt/Half/file_name_$(date '+%HH-%MM-%d\%m\%Y')"
+    mv database_folder "/mnt/Half/file_name_$(date '+%HH-%MM-%d\%m\%Y')"
 
 ## Update crontabe 
 # BdBackup
